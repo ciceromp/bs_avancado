@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        h2 {
+            color: #181818;
+        }
+
+        .card {
+            margin-top:16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pássaros gorduchos à venda</h1>
+        </header>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1455143686/pt/foto/close-up-of-bird-perching-on-branch.jpg?s=1024x1024&w=is&k=20&c=f-NK_1k0ftn3hp7XYmVZRBBxTDmHpEMd3EreoHos9jM=" />
+                    <div class="carousel-caption">
+                        <h2>Pássaro A</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1458515349/pt/foto/chaffinch-on-branch-the-netherlands.webp?s=1024x1024&w=is&k=20&c=5ZgA0nOp8BWiLoqK6Sxgrpz5M8TOzdlTMlzVAsZ2hX0=" />
+                    <div class="carousel-caption">
+                        <h2>Pássaro B</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1428760822/pt/foto/steel-barbs-or-spikes-to-repel-birds-such-as-pigeons-installed-on-walls-and-windows-of.webp?s=1024x1024&w=is&k=20&c=0faR-uLiTeck6dPnNl2BE7dsKQuS657zvqNuPPspxLU=" />
+                    <div class="carousel-caption">
+                        <h2>Pássaro C</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1441699462/pt/foto/beautiful-winter-scenery-with-european-finch-birds-perched-on-the-branch-within-a-heavy.webp?s=1024x1024&w=is&k=20&c=VrJyKjQPKe3Di5qM5DXxV4owwEPCbJqmSAx_st8-tvc=" />
+                    <div class="carousel-caption">
+                        <h2>Pássaro D</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+        <section id="passaros">
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            <h2>Pássaro A</h2>
+                        </header>
+                        <img src="https://media.istockphoto.com/id/1455143686/pt/foto/close-up-of-bird-perching-on-branch.jpg?s=1024x1024&w=is&k=20&c=f-NK_1k0ftn3hp7XYmVZRBBxTDmHpEMd3EreoHos9jM=" />
+                        <div class="card-body">
+                            <h4 class="card-title">Fofos demais!</h4>
+                            <p class="card-text">
+                                Conheça as aves mais adoráveis disponíveis no mercado de anivamais silvestres !
+                            </p>
+                            <a href="#" class="btn btn-primary">Compre Já</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>01/11/2023 às 19:00:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card">
+                        <header class="card-header">
+                            <h2>Pássaro B</h2>
+                        </header>
+                        <img src="https://media.istockphoto.com/id/1458515349/pt/foto/chaffinch-on-branch-the-netherlands.webp?s=1024x1024&w=is&k=20&c=5ZgA0nOp8BWiLoqK6Sxgrpz5M8TOzdlTMlzVAsZ2hX0=" />
+                        <div class="card-body">
+                            <h4 class="card-title">Fofos demais!</h4>
+                            <p class="card-text">
+                                Conheça as aves mais adoráveis disponíveis no mercado de anivamais silvestres !
+                            </p>
+                            <a href="#" class="btn btn-primary">Compre Já</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>01/11/2023 às 19:00:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card">
+                        <header class="card-header">
+                            <h2>Pássaro C</h2>
+                        </header>
+                        <img src="https://media.istockphoto.com/id/1428760822/pt/foto/steel-barbs-or-spikes-to-repel-birds-such-as-pigeons-installed-on-walls-and-windows-of.webp?s=1024x1024&w=is&k=20&c=0faR-uLiTeck6dPnNl2BE7dsKQuS657zvqNuPPspxLU=" />
+                        <div class="card-body">
+                            <h4 class="card-title">Fofos demais!</h4>
+                            <p class="card-text">
+                                Conheça as aves mais adoráveis disponíveis no mercado de anivamais silvestres !
+                            </p>
+                            <a href="#" class="btn btn-primary">Compre Já</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>01/11/2023 às 19:00:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <article class="card">
+                        <header class="card-header">
+                            <h2>Pássaro D</h2>
+                        </header>
+                        <img src="https://media.istockphoto.com/id/1441699462/pt/foto/beautiful-winter-scenery-with-european-finch-birds-perched-on-the-branch-within-a-heavy.webp?s=1024x1024&w=is&k=20&c=VrJyKjQPKe3Di5qM5DXxV4owwEPCbJqmSAx_st8-tvc=" />
+                        <div class="card-body">
+                            <h4 class="card-title">Fofos demais!</h4>
+                            <p class="card-text">
+                                Conheça as aves mais adoráveis disponíveis no mercado de anivamais silvestres !
+                            </p>
+                            <a href="#" class="btn btn-primary">Compre Já</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>01/11/2023 às 19:00:00</time>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
